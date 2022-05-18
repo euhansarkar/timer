@@ -1,0 +1,29 @@
+*,
+::before,
+::after{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+html,
+body{
+      background: #000;
+}
+
+#container{
+      display: grid;
+      grid-template-columns: auto;
+      margin: 100px;
+      align-content: center;
+      justify-content: center;
+      background-color: #000;
+      border: 3px solid #fff;
+      border-radius: 10px;
+      padding: 12px;
+}
+
+#countdown{
+      color: #fff;
+      background-color: #000;
+}
